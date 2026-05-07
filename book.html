@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="book">
+
+<div id="progressBar"></div>
+
+<div class="bar">
+
+<h2>Voyanova</h2>
+
+<div>
+
+<a href="home.html" class="nav-link">Home</a>
+<a href="places.html" class="nav-link">Places</a>
+<a href="about.html" class="nav-link">About</a>
+<a href="contact.html" class="nav-link">Contact</a>
+<a href="book.html" class="nav-link">Book</a>
+
+<button id="darkBtn" class="dark-btn">🌙</button>
+
+<div id="clock"></div>
+
+</div>
+</div>
+
+<div class="booking-container reveal">
+
+<h1>Book Your Dream Trip ✈</h1>
+
+<form class="booking-form">
+
+<div class="form-group">
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name" required>
+</div>
+
+<div class="form-group">
+<label>Email Address</label>
+<input type="email" placeholder="Enter your email" required>
+</div>
+
+<div class="form-group">
+<label>Phone Number</label>
+<input type="text" placeholder="Enter your phone number" required>
+</div>
+
+<div class="form-group">
+<label>Select Destination</label>
+
+<select id="destination">
+
+<option>Paris</option>
+<option>Spain</option>
+<option>Maldives</option>
+<option>Bali</option>
+<option>Switzerland</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+<label>Budget Preference</label>
+
+<select id="budget">
+
+<option>Low Budget</option>
+<option>Medium Budget</option>
+<option>High Budget</option>
+
+</select>
+
+</div>
+
+<div class="form-group">
+<label>Number of Travelers</label>
+
+<input type="number" id="travelers" value="1" min="1">
+
+</div>
+
+<div class="form-group">
+<label>Travel Date</label>
+
+<input type="date">
+
+</div>
+
+<div class="form-group">
+<label>Additional Notes</label>
+
+<textarea placeholder="Any special requests..."></textarea>
+
+</div>
+
+<div class="calc-box">
+
+<h3>Trip Cost Estimation</h3>
+
+<p id="result">
+Estimated Trip Cost: ₹100000
+</p>
+
+</div>
+
+<button class="btnbook">
+Confirm Booking
+</button>
+
+</form>
+
+</div>
+
+<div class="about reveal">
+
+<h2>Why Book With Voyanova?</h2>
+
+<ul>
+<li>✔ Smart travel planning</li>
+<li>✔ Instant budget calculation</li>
+<li>✔ Smooth booking experience</li>
+<li>✔ Premium travel recommendations</li>
+<li>✔ Beautiful modern interface</li>
+</ul>
+
+</div>
+
+<div class="popup" id="popup">
+
+<h2>✅ Booking Successful</h2>
+
+<p>
+Your dream trip has been booked successfully.
+</p>
+
+</div>
+
+<div class="foot">
+<p>Book Luxury Trips with Voyanova</p>
+</div>
+
+<button id="topBtn">↑</button>
+
+<script src="script1.js"></script>
+
+</body>
+</html>
